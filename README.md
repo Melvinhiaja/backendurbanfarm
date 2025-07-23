@@ -30,7 +30,7 @@
 
 ## Setup Project
 
-### 1. Install PostgreSQL di MacBook
+### 1. Install PostgreSQL 
 
 Lalu buat database baru dengan nama `urbanfarm_db`.
 
@@ -100,3 +100,32 @@ npm run dev
 
 
 
+## Tahap 2 — Tanaman dan Perawatan (Backend)
+
+### Fitur:
+- CRUD (Create, Read, Update, Delete) untuk data tanaman
+- Tanaman
+- Setiap tanaman memiliki:
+   - name (nama tanaman)
+   - species (spesies tanaman)
+   - location (lokasi geografis)
+   - photo (upload gambar)
+   - latitude, longitude
+
+- CRUD (Create, Read, Update, Delete) untuk data farmerplant(perawatan tanaman oleh farmer)
+   - Farmer hanya dapat memilih tanaman dari daftar yang sudah dibuat Admin
+   - Farmer dapat nemanbahkan catatan , kapan mulai tanaman, status tanaman , jenis pupuk, dll
+
+### Library Tambahan yang Digunakan di Tahap 2
+- Multer untuk mengupload gambar
+- Sequelize untuk mengatur database
+
+### Setup middleware baru dan route 
+- Multer untuk mengupload gambar
+- middleware upload.js
+- controller baru untuk CRUD tanaman dan perawatan
+- route baru untuk CRUD tanaman dan perawatan
+- controller baru untuk CRUD tanaman oleh admin
+- route baru untuk CRUD tanaman oleh admin
+
+---
