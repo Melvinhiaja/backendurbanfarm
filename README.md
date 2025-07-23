@@ -14,7 +14,7 @@
 
 ---
 
-## 📦 Teknologi & Library yang Digunakan
+##  Teknologi & Library yang Digunakan
 
 - Node.js
 - Express.js
@@ -28,7 +28,7 @@
 
 ---
 
-## 🛠️ Setup Project
+## Setup Project
 
 ### 1. Install PostgreSQL di MacBook
 
